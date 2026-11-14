@@ -4,24 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <title>Amal Saji &amp; Jesna Jaimon | Engagement Invitation</title>
+  <title>Jesna Jaimon &amp; Amal Saji | Engagement Invitation</title>
   <meta name="description"
-    content="Join us as we celebrate the Engagement of Amal Saji &amp; Jesna Jaimon. January 1, 2027, 5:00 PM at St. Mary's Knanaya Church, Kattachira, Ettumanoor, Kottayam — a celebration of love, faith, and family.">
+    content="Join us as we celebrate the Engagement of Jesna Jaimon &amp; Amal Saji. January 1, 2027, 5:00 PM at St. Mary's Knanaya Church, Kattachira, Ettumanoor, Kottayam — a celebration of love, faith, and family.">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Amal Saji &amp; Jesna Jaimon — Engagement Invitation">
+  <meta property="og:title" content="Jesna Jaimon &amp; Amal Saji — Engagement Invitation">
   <meta property="og:description"
     content="January 1, 2027 · Together with our families, joyfully invite you to celebrate our Engagement.">
-  <meta property="og:image" content="https://amal-jesna-engagement.vercel.app/og.jpg">
+  <meta property="og:image" content="https://jesna-amal-engagement.vercel.app/og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://amal-jesna-engagement.vercel.app/">
+  <meta property="og:url" content="https://jesna-amal-engagement.vercel.app/">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Amal &amp; Jesna — Engagement Invitation">
+  <meta name="twitter:title" content="Jesna &amp; Amal — Engagement Invitation">
   <meta name="twitter:description"
-    content="Join us as we celebrate the Engagement of Amal Saji &amp; Jesna Jaimon, January 1, 2027.">
-  <meta name="twitter:image" content="https://amal-jesna-engagement.vercel.app/og.jpg">
+    content="Join us as we celebrate the Engagement of Jesna Jaimon &amp; Amal Saji, January 1, 2027.">
+  <meta name="twitter:image" content="https://jesna-amal-engagement.vercel.app/og.jpg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1450,62 +1450,6 @@
     }
 
     /* ============================================================
-     MUSIC BUTTON
-  ============================================================ */
-    #mute-btn {
-      position: fixed;
-      bottom: 26px;
-      left: 26px;
-      z-index: 1000;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      background: rgba(255, 255, 255, 0.95);
-      border: 1.5px solid rgba(78, 122, 138, 0.50);
-      color: var(--rose-deep);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      box-shadow: 0 4px 20px -6px var(--shadow-dark);
-      transition: background 0.22s ease, transform 0.15s ease, box-shadow 0.22s ease;
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-    }
-
-    #mute-btn:hover {
-      background: rgba(255, 255, 255, 1);
-      transform: scale(1.08);
-    }
-
-    #mute-btn:active {
-      transform: scale(0.94);
-    }
-
-    #mute-btn .music-pulse {
-      position: absolute;
-      inset: -4px;
-      border-radius: 50%;
-      border: 1px solid rgba(78, 122, 138, 0.40);
-      animation: musicPulse 2.2s ease-in-out infinite;
-      pointer-events: none;
-    }
-
-    @keyframes musicPulse {
-
-      0%,
-      100% {
-        transform: scale(1);
-        opacity: 0.6;
-      }
-
-      50% {
-        transform: scale(1.14);
-        opacity: 0;
-      }
-    }
-
-    /* ============================================================
      RESPONSIVE
   ============================================================ */
 
@@ -1822,25 +1766,8 @@
 
   <!-- Background music -->
   <audio id="bg-music" loop>
-    <source src="music.mp3" type="audio/mpeg">
+    <source src="song.mp3" type="audio/mpeg">
   </audio>
-
-  <!-- Music toggle button -->
-  <button id="mute-btn" aria-label="Toggle background music" title="Toggle music">
-    <span class="music-pulse" aria-hidden="true"></span>
-    <svg id="icon-sound" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round">
-      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-      <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
-      <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
-    </svg>
-    <svg id="icon-muted" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round" style="display:none;">
-      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-      <line x1="23" y1="9" x2="17" y2="15"></line>
-      <line x1="17" y1="9" x2="23" y2="15"></line>
-    </svg>
-  </button>
 
   <!-- SVG gradient defs -->
   <svg width="0" height="0" style="position:absolute;" aria-hidden="true">
@@ -1858,7 +1785,7 @@
 ============================================================ -->
   <div id="cover" role="dialog" aria-label="Engagement invitation opening" aria-modal="true">
 
-    <!-- Left panel (Groom) -->
+    <!-- Left panel (Bride) -->
     <div class="fold left">
       <div class="cover-top">
         <!-- <div class="cover-cross-symbol" aria-hidden="true">✝</div>
@@ -1869,8 +1796,8 @@
       </div>
       <div class="cover-bottom">
         <div class="cover-name">
-          <div class="n">Amal</div>
-          <div class="r">The Groom</div>
+          <div class="n">Jesna</div>
+          <div class="r">The Bride</div>
         </div>
       </div>
     </div>
@@ -1890,13 +1817,13 @@
           <circle cx="50" cy="50" r="44" stroke="url(#sealGold)" stroke-width="1.2" stroke-dasharray="3 3"
             opacity="0.80" />
           <text x="50" y="64" text-anchor="middle" font-family="'Mrs Saint Delafield', cursive" font-size="58"
-            fill="url(#sealGold)">AJ</text>
+            fill="url(#sealGold)">JA</text>
         </svg>
       </div>
       <div class="tap-label">Tap to open</div>
     </div>
 
-    <!-- Right panel (Bride) -->
+    <!-- Right panel (Groom) -->
     <div class="fold right">
       <div class="cover-top" style="visibility:hidden" aria-hidden="true">
         <div class="cover-cross-symbol">✝</div>
@@ -1904,8 +1831,8 @@
       </div>
       <div class="cover-bottom">
         <div class="cover-name">
-          <div class="n">Jesna</div>
-          <div class="r">The Bride</div>
+          <div class="n">Amal</div>
+          <div class="r">The Groom</div>
         </div>
       </div>
     </div>
@@ -1929,9 +1856,9 @@
       <div class="hero-content reveal">
         <div class="hero-backdrop">
           <h1 class="hero-names" id="hero-heading">
-            Amal
-            <span class="amp-script">&amp;</span>
             Jesna
+            <span class="amp-script">&amp;</span>
+            Amal
           </h1>
 
           <p class="hero-tagline">
@@ -1965,7 +1892,7 @@
       </div>
       <div class="reveal" style="transition-delay: 0.15s; margin-top: 28px;">
         <p class="welcome-body">
-          With grateful hearts and prayers of thanksgiving, we — <em>Amal Saji</em> and <em>Jesna Jaimon</em> —
+          With grateful hearts and prayers of thanksgiving, we — <em>Jesna Jaimon</em> and <em>Amal Saji</em> —
           together with our beloved families, joyfully invite you to share in the blessing of our
           <strong>Engagement</strong>.
           <br><br>
@@ -1985,6 +1912,24 @@
 
       <div class="couple-grid">
         <div class="couple-card reveal left" style="transition-delay: 0.10s;">
+          <div class="role-tag">✦ The Bride ✦</div>
+          <div class="person-name">Jesna</div>
+          <div class="person-surname">Jaimon</div>
+          <div class="divider rose" style="margin: 0 auto 18px;" aria-hidden="true">
+            <span class="line"></span><span class="gem" style="background:var(--rose-soft);"></span><span
+              class="line"></span>
+          </div>
+          <div class="person-parents">
+            Beloved daughter of<br>
+            <em style="color:var(--rose-deep);">Mr. Jaimon Jacob &amp; Mrs. Nancy Jaimon</em>
+            <div class="person-house">Brother: Jestin Jaimon</div>
+            <div class="person-house">Parambadathumalayil H, Kattachira, Ettumanoor, Kottayam &ndash; 686572</div>
+          </div>
+        </div>
+
+        <div class="couple-and-separator reveal" style="transition-delay: 0.20s;" aria-hidden="true">&amp;</div>
+
+        <div class="couple-card reveal right" style="transition-delay: 0.30s;">
           <div class="role-tag">✦ The Groom ✦</div>
           <div class="person-name">Amal</div>
           <div class="person-surname">Saji</div>
@@ -1998,24 +1943,6 @@
             <div class="person-house">Sister: Anjali Saji</div>
             <div class="person-house">Brother-in-law: Sujith Saji</div>
             <div class="person-house">Nephew: Ezekiel Sujith</div>
-          </div>
-        </div>
-
-        <div class="couple-and-separator reveal" style="transition-delay: 0.20s;" aria-hidden="true">&amp;</div>
-
-        <div class="couple-card reveal right" style="transition-delay: 0.30s;">
-          <div class="role-tag">✦ The Bride ✦</div>
-          <div class="person-name">Jesna</div>
-          <div class="person-surname">Jaimon</div>
-          <div class="divider rose" style="margin: 0 auto 18px;" aria-hidden="true">
-            <span class="line"></span><span class="gem" style="background:var(--rose-soft);"></span><span
-              class="line"></span>
-          </div>
-          <div class="person-parents">
-            Beloved daughter of<br>
-            <em style="color:var(--rose-deep);">Mr. Jaimon Jacob &amp; Mrs. Nancy Jaimon</em>
-            <div class="person-house">Brother: Jestin Jaimon</div>
-            <div class="person-house">Parambadathumalayil H, Kattachira, Ettumanoor, Kottayam &ndash; 686572</div>
           </div>
         </div>
       </div>
@@ -2066,60 +1993,6 @@
           </div>
         </div>
         <p class="countdown-until">Until the Engagement — January 1, 2027</p>
-      </div>
-    </section>
-
-    <!-- ====== EVENTS ====== -->
-    <section class="events" aria-labelledby="events-heading">
-      <div class="reveal">
-        <p class="eyebrow">Sacred Celebrations</p>
-        <div class="divider" aria-hidden="true">
-          <span class="line"></span><span class="gem"></span><span class="line"></span>
-        </div>
-        <h2 id="events-heading">Our Events</h2>
-      </div>
-
-      <div class="event-cards">
-
-        <!-- Engagement Card -->
-        <article class="event-card reveal" style="transition-delay: 0.10s;">
-          <div class="event-icon" aria-hidden="true">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M9 10a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/>
-              <path d="M15 10a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/>
-              <path d="M12 6l-1.5-2.5h3L12 6z"/>
-            </svg>
-          </div>
-          <div class="event-type">✦ Sacred Engagement ✦</div>
-          <h3>Engagement</h3>
-          <div class="event-detail">
-            <span class="event-detail-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01"/></svg>
-            </span>
-            <div class="event-detail-text">
-              <div class="primary">January 1, 2027</div>
-              <div class="secondary">5:00 PM &mdash; Friday</div>
-            </div>
-          </div>
-          <div class="event-detail">
-            <span class="event-detail-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            </span>
-            <div class="event-detail-text">
-              <div class="primary">St. Mary's Knanaya Church</div>
-              <div class="secondary">Kattachira, Ettumanoor, Kottayam</div>
-            </div>
-          </div>
-          <a class="event-btn" href="https://www.google.com/maps/search/?api=1&amp;query=St.+Mary%27s+Knanaya+Church+Kattachira+Ettumanoor+Kottayam" target="_blank" rel="noopener noreferrer"
-            aria-label="View Engagement location on Google Maps">
-            <span>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px;margin-right:6px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              View Location
-            </span>
-          </a>
-        </article>
-
-        
       </div>
     </section>
 
@@ -2236,7 +2109,7 @@
           <circle cx="50" cy="50" r="44" stroke="url(#closingGold)" stroke-width="1.2" stroke-dasharray="3 3"
             opacity="0.80" />
           <text x="50" y="64" text-anchor="middle" font-family="'Mrs Saint Delafield', cursive" font-size="58"
-            fill="url(#closingGold)">AJ</text>
+            fill="url(#closingGold)">JA</text>
         </svg>
       </div>
 
@@ -2245,7 +2118,7 @@
         <div class="divider light" aria-hidden="true">
           <span class="line"></span><span class="gem"></span><span class="line"></span>
         </div>
-        <h2 id="closing-heading" class="names">Amal &amp; Jesna</h2>
+        <h2 id="closing-heading" class="names">Jesna &amp; Amal</h2>
         <div class="date-label">01 January 2027</div>
       </div>
 
@@ -2255,11 +2128,11 @@
           we look forward to celebrating with you.<br>
           <em style="font-size:0.9em;opacity:0.8;">Your presence is our greatest gift.</em>
         </p>
-        <div class="hashtag">#AmalAndJesna</div>
+        <div class="hashtag">#JesnaAndAmal</div>
       </div>
 
       <div class="foot reveal" style="transition-delay: 0.30s;">
-        Amal Saji &amp; Jesna Jaimon &middot; January 2027 &middot; Made with Love
+        Jesna Jaimon &amp; Amal Saji &middot; January 2027 &middot; Made with Love
       </div>
 
     </section>
@@ -2273,13 +2146,18 @@
     const cover = document.getElementById('cover');
     const mainEl = document.getElementById('main');
     const tapBtn = document.getElementById('tapToOpen');
+    const audio = document.getElementById('bg-music');
     document.documentElement.classList.add('locked');
 
     function openInvite() {
       cover.classList.add('open');
       mainEl.classList.add('show');
       document.documentElement.classList.remove('locked');
-      startMusic();
+      
+      // Start music when opening invitation
+      audio.volume = 0.40;
+      audio.play().catch(() => { });
+      
       setTimeout(() => { cover.classList.add('hidden'); }, 1350);
     }
 
@@ -2308,45 +2186,6 @@
     }
     tickCountdown();
     setInterval(tickCountdown, 1000);
-
-    /* ==========================================================
-       BACKGROUND MUSIC
-    ========================================================== */
-    const audio = document.getElementById('bg-music');
-    const muteBtn = document.getElementById('mute-btn');
-    const iconSound = document.getElementById('icon-sound');
-    const iconMuted = document.getElementById('icon-muted');
-    let started = false;
-
-    function startMusic() {
-      if (!started) {
-        audio.volume = 0.40;
-        audio.play().then(() => { started = true; }).catch(() => { });
-      }
-    }
-
-    window.addEventListener('load', () => {
-      audio.volume = 0.40;
-      audio.play().then(() => { started = true; }).catch(() => { });
-    });
-
-    ['click', 'scroll', 'touchstart', 'keydown'].forEach(evt => {
-      document.addEventListener(evt, startMusic, { once: true, passive: true });
-    });
-
-    muteBtn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      startMusic();
-      if (audio.paused) {
-        audio.play();
-        iconSound.style.display = '';
-        iconMuted.style.display = 'none';
-      } else {
-        audio.pause();
-        iconSound.style.display = 'none';
-        iconMuted.style.display = '';
-      }
-    });
 
     /* ==========================================================
        SCROLL REVEAL — IntersectionObserver
